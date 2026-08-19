@@ -2,6 +2,8 @@
 
 > **An AI-native desktop command center built on top of DeepSeek Harness.**
 
+![Harness Core](docs/screenshots/core.png)
+
 Harness Core turns the local DeepSeek Harness runtime into a focused desktop workspace for AI-assisted development. It combines a global command center, workspace-aware AI, live execution state, agent activity, terminal output, system tooling, and the upstream Harness console in one Electron shell.
 
 ## Highlights
@@ -18,6 +20,26 @@ Harness Core turns the local DeepSeek Harness runtime into a focused desktop wor
 - **Whitelisted Electron IPC** — renderer capabilities cross a narrow `contextBridge`; system actions and Harness methods are explicitly enumerated.
 - **Cold-start optimization** — the splash, local desktop shell, and Harness Host start independently, so external service hydration does not block the shell reveal.
 - **Smooth Splash/Desktop handoff** — the splash energy gate reveals a matching AI Core frame before the desktop chrome fades in, creating one continuous visual transition.
+
+## Product Tour
+
+### AI Command Center
+
+![AI Command Center](docs/screenshots/command-center.png)
+
+Press **Ctrl+Space** to open the command center, then search registered commands or describe an intent in natural language.
+
+### Workspace-aware Development
+
+![Workspace-aware Development](docs/screenshots/workspace.png)
+
+Select a local project and Harness Core inspects its Git branch, languages, and project structure, then binds that context to Harness sessions.
+
+### Harness Console
+
+![Harness Console](docs/screenshots/console.png)
+
+The CONSOLE view embeds the local DeepSeek Harness Web GUI inside Harness Core while keeping the Agent, Workspace, and Terminal frame available.
 
 ## Architecture
 
