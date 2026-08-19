@@ -1,0 +1,56 @@
+﻿# Packaged / extracted application artifacts
+asar-extracted/
+test-app/
+build/
+backup/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime / verification logs
+*.log
+*.jsonl
+
+# Packaged binaries
+*.exe
+*.asar
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Cache / coverage
+.cache/
+coverage/
+dist/
+tmp/
+temp/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python, if any helper scripts use it
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Internal development notes
+PLAN.md
+
+# Upstream / derivative DSH files - keep out until upstream license provenance is verified
+src/package.json
+src/lib/main.js
+src/lib/types/main.js
+src/lib/types/host-supervisor.js
+src/lib/types/window-lifecycle.js
+
+# Upstream branding asset
+src/splash/logo-original.svg
