@@ -41,8 +41,13 @@ Select a local project and Harness Core inspects its Git branch, languages, and 
 
 The CONSOLE view embeds the local DeepSeek Harness Web GUI inside Harness Core while keeping the Agent, Workspace, and Terminal frame available.
 
-## Architecture
+## Demo
 
+A short walkthrough of Harness Core:
+
+[Download Demo Video](docs/demo/Harness_Core_demo.mp4)
+
+## Architecture
 ```mermaid
 flowchart LR
     U["User"] --> CC["Ctrl+Space Command Center"]
@@ -145,3 +150,4 @@ This repository focuses on the original desktop command-center layer, system and
 Harness Core is a functional, Windows-oriented desktop extension under active development. The command center, workspace integration, AI Core visualization, Agent and Terminal panels, GPU/WSL/VS Code actions, Harness Host bridge, security boundary, and optimized boot handoff are implemented and covered by the validation baseline above.
 
 The project is not a standalone DeepSeek Harness distribution. Interfaces, packaging, and compatibility requirements may evolve while the extension layer is refined for broader use.
+
