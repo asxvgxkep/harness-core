@@ -45,7 +45,7 @@ The CONSOLE view embeds the local DeepSeek Harness Web GUI inside Harness Core w
 
 A short walkthrough of Harness Core:
 
-[Download Demo Video](docs/demo/Harness_Core_demo.mp4)
+[Watch Demo Video](https://github.com/asxvgxkep/harness-core/raw/main/docs/demo/Harness_Core_demo.mp4)
 
 ## Architecture
 ```mermaid
